@@ -385,6 +385,11 @@
         crossorigin="anonymous"></script>
     <!-- Optional JavaScript -->
     <script src="./js/script.js"></script>
+    <script>
+
+            $(".nav a").on("click", function(){  $(".nav").find(".active").removeClass("active");  $(this).parent().addClass("active");});
+            
+            </script>
 </body>
 
 </html>
